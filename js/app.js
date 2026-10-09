@@ -13,152 +13,152 @@
   const ARCANA = {
     1: {
       title: 'The Magician',
-      keywords: ['Initiative', 'Communication', 'Originality', 'Willpower'],
-      text: 'You are a natural pioneer and communicator. Endowed with creative power and strong will, you initiate projects and inspire others. Your potential lies in turning ideas into reality through focused action and clear self-expression.',
-      shadow: 'In shadow: manipulation, deceit, abuse of power, or scattering energy across too many projects without finishing any.'
+      keywords: ['Inisiatif', 'Komunikasi', 'Orisinalitas', 'Kemauan Kuat'],
+      text: 'Anda adalah pelopor dan komunikator alami. Diberkahi kekuatan kreatif dan kemauan kuat, Anda memulai proyek dan menginspirasi orang lain. Potensi Anda terletak pada mengubah ide menjadi kenyataan melalui tindakan yang fokus dan ekspresi diri yang jelas.',
+      shadow: 'Dalam bayangan: manipulasi, penipuan, penyalahgunaan kekuasaan, atau menyebarkan energi ke terlalu banyak proyek tanpa menyelesaikan satu pun.'
     },
     2: {
       title: 'The High Priestess',
-      keywords: ['Intuition', 'Diplomacy', 'Mystery', 'Inner Wisdom'],
-      text: 'You carry deep intuitive wisdom and a gift for seeing beneath the surface. Diplomatic and receptive, you understand people on an energetic level. Your path involves trusting your inner voice and bridging the visible and hidden worlds.',
-      shadow: 'In shadow: isolation, mood swings, suppressed emotions, secrecy, or doubting your own intuition.'
+      keywords: ['Intuisi', 'Diplomasi', 'Misteri', 'Kebijaksanaan Batin'],
+      text: 'Anda membawa kebijaksanaan intuitif yang mendalam dan karunia untuk melihat di balik permukaan. Diplomatis dan reseptif, Anda memahami orang pada tingkat energetik. Jalan Anda melibatkan kepercayaan pada suara batin dan menjembatani dunia yang terlihat dan tersembunyi.',
+      shadow: 'Dalam bayangan: isolasi, perubahan suasana hati, emosi yang ditekan, kerahasiaan, atau meragukan intuisi sendiri.'
     },
     3: {
       title: 'The Empress',
-      keywords: ['Abundance', 'Creativity', 'Nurturing', 'Fertility'],
-      text: 'You embody creative abundance and the power to nurture life. Whether through art, family, or business, you bring things into bloom. Your energy is magnetic, warm, and life-giving, drawing others toward your generous nature.',
-      shadow: 'In shadow: over-controlling others, dependency, superficiality, neglecting self-care while caring for everyone else.'
+      keywords: ['Kelimpahan', 'Kreativitas', 'Pemeliharaan', 'Kesuburan'],
+      text: 'Anda mewujudkan kelimpahan kreatif dan kekuatan untuk memelihara kehidupan. Baik melalui seni, keluarga, atau bisnis, Anda membuat segalanya mekar. Energi Anda magnetis, hangat, dan memberi kehidupan, menarik orang lain menuju sifat murah hati Anda.',
+      shadow: 'Dalam bayangan: terlalu mengendalikan orang lain, ketergantungan, kesuperfisialitas, mengabaikan perawatan diri sambil merawat orang lain.'
     },
     4: {
       title: 'The Emperor',
-      keywords: ['Structure', 'Leadership', 'Authority', 'Discipline'],
-      text: 'You are a builder and leader who creates lasting structures. With natural authority and strong discipline, you organize chaos into order. Your gift is providing stability and protection for those around you.',
-      shadow: 'In shadow: rigidity, authoritarianism, impatience, controlling behavior, or difficulty showing vulnerability.'
+      keywords: ['Struktur', 'Kepemimpinan', 'Otoritas', 'Disiplin'],
+      text: 'Anda adalah pembangun dan pemimpin yang menciptakan struktur abadi. Dengan otoritas alami dan disiplin kuat, Anda mengatur kekacauan menjadi tertib. Karunia Anda adalah memberikan stabilitas dan perlindungan bagi orang di sekitar Anda.',
+      shadow: 'Dalam bayangan: kekakuan, otoritarian, ketidaksabaran, perilaku mengendalikan, atau kesulitan menunjukkan kerentanan.'
     },
     5: {
       title: 'The Hierophant',
-      keywords: ['Teaching', 'Tradition', 'Spirituality', 'Guidance'],
-      text: 'You are a bridge between spiritual knowledge and everyday life. A natural teacher and guide, you transmit wisdom through tradition and ritual. Others seek your counsel because you embody timeless principles.',
-      shadow: 'In shadow: dogmatism, conformity, self-righteousness, or hiding behind rules instead of living authentically.'
+      keywords: ['Pengajaran', 'Tradisi', 'Spiritualitas', 'Bimbingan'],
+      text: 'Anda adalah jembatan antara pengetahuan spiritual dan kehidupan sehari-hari. Guru dan pemandu alami, Anda menularkan kebijaksanaan melalui tradisi dan ritual. Orang lain mencari nasihat Anda karena Anda mewujudkan prinsip yang abadi.',
+      shadow: 'Dalam bayangan: dogmatisme, konformitas, kesombongan spiritual, atau bersembunyi di balik aturan alih-alih hidup otentik.'
     },
     6: {
       title: 'The Lovers',
-      keywords: ['Love', 'Choice', 'Harmony', 'Partnership'],
-      text: 'Your life centers around love, beauty, and meaningful choices. You seek deep union and harmony in relationships. Your gift is seeing the beauty in others and helping them feel valued. Every major life path involves a choice of the heart.',
-      shadow: 'In shadow: indecision, dependency in relationships, repeated poor choices, or losing yourself in another person.'
+      keywords: ['Cinta', 'Pilihan', 'Harmoni', 'Kemitraan'],
+      text: 'Hidup Anda berpusat pada cinta, keindahan, dan pilihan yang bermakna. Anda mencari persatuan dan harmoni yang mendalam dalam hubungan. Karunia Anda adalah melihat keindahan dalam diri orang lain dan membantu mereka merasa dihargai. Setiap jalur hidup utama melibatkan pilihan hati.',
+      shadow: 'Dalam bayangan: keraguan, ketergantungan dalam hubungan, pilihan buruk yang berulang, atau kehilangan diri Anda dalam orang lain.'
     },
     7: {
       title: 'The Chariot',
-      keywords: ['Drive', 'Victory', 'Discipline', 'Breakthrough'],
-      text: 'You are a warrior of purpose who achieves victory through discipline and willpower. Once you set your direction, nothing can stop you. Your path involves mastering opposing forces and driving forward with focused determination.',
-      shadow: 'In shadow: aggression, recklessness, winning at all costs, or pushing forward without reflection.'
+      keywords: ['Dorongan', 'Kemenangan', 'Disiplin', 'Terobosan'],
+      text: 'Anda adalah pejuang ber tujuan yang mencapai kemenangan melalui disiplin dan kemauan kuat. Setelah Anda menetapkan arah, tidak ada yang dapat menghentikan Anda. Jalan Anda melibatkan penguasaan kekuatan yang berlawanan dan maju dengan tekad yang fokus.',
+      shadow: 'Dalam bayangan: agresi, kecerobohan, menang dengan segala cara, atau maju tanpa refleksi.'
     },
     8: {
       title: 'Strength',
-      keywords: ['Courage', 'Patience', 'Inner Power', 'Compassion'],
-      text: 'You possess quiet inner strength and the ability to tame raw forces through patience and love rather than force. Your courage is gentle but unbreakable. You heal yourself and others through compassion and steadfast endurance.',
-      shadow: 'In shadow: self-doubt, suppressed anger, passivity, or using force when gentleness is needed.'
+      keywords: ['Keberanian', 'Kesabaran', 'Kekuatan Batin', 'Kasih Sayang'],
+      text: 'Anda memiliki kekuatan batin yang tenang dan kemampuan untuk menjinakkan kekuatan mentah melalui kesabaran dan cinta, bukan paksaan. Keberanian Anda lembut namun tak terhancurkan. Anda menyembuhkan diri sendiri dan orang lain melalui kasih sayang dan ketekunan yang teguh.',
+      shadow: 'Dalam bayangan: keraguan diri, kemarahan yang ditekan, pasivitas, atau menggunakan kekerasan ketika kelembutan dibutuhkan.'
     },
     9: {
       title: 'The Hermit',
-      keywords: ['Wisdom', 'Solitude', 'Inner Light', 'Completion'],
-      text: 'You are a seeker of deeper truth, often walking a solitary path to find inner light. Your wisdom comes from experience and introspection. You guide others not by preaching but by embodying the light you have found within.',
-      shadow: 'In shadow: excessive isolation, coldness, intellectual arrogance, or fear of engaging with the world.'
+      keywords: ['Kebijaksanaan', 'Kesendirian', 'Cahaya Batin', 'Penyelesaian'],
+      text: 'Anda adalah pencari kebenaran yang lebih dalam, sering berjalan di jalan sunyi untuk menemukan cahaya batin. Kebijaksanaan Anda berasal dari pengalaman dan introspeksi. Anda membimbing orang lain bukan dengan berkhotbah tetapi dengan mewujudkan cahaya yang Anda temukan di dalam diri.',
+      shadow: 'Dalam bayangan: isolasi berlebihan, kedinginan, kesombongan intelektual, atau ketakutan untuk terlibat dengan dunia.'
     },
     10: {
       title: 'Wheel of Fortune',
-      keywords: ['Cycles', 'Luck', 'Change', 'Destiny'],
-      text: 'Your life moves in grand cycles of fortune and transformation. You understand that everything rises and falls, and you can find opportunity in every turning. Your gift is adaptability and recognizing the right moment to act.',
-      shadow: 'In shadow: unpredictability, gambling, fatalism, passively waiting for luck instead of creating your own.'
+      keywords: ['Siklus', 'Keberuntungan', 'Perubahan', 'Takdir'],
+      text: 'Hidup Anda bergerak dalam siklus besar keberuntungan dan transformasi. Anda memahami bahwa segalanya naik dan turun, dan Anda dapat menemukan peluang di setiap putaran. Karunia Anda adalah kemampuan beradaptasi dan mengenali momen yang tepat untuk bertindak.',
+      shadow: 'Dalam bayangan: ketidakpastian, perjudian, fatalisme, pasif menunggu keberuntungan alih-alih menciptakan sendiri.'
     },
     11: {
       title: 'Justice',
-      keywords: ['Truth', 'Balance', 'Fairness', 'Consequence'],
-      text: 'You are called to live in truth and bring balance to the world. With a strong sense of justice, you see clearly what is right and act accordingly. Your life teaches that every cause has an effect and that integrity is its own reward.',
-      shadow: 'In shadow: judgmentalness, harshness, legalistic thinking, or avoiding decisions out of fear of being wrong.'
+      keywords: ['Kebenaran', 'Keseimbangan', 'Keadilan', 'Konsekuensi'],
+      text: 'Anda dipanggil untuk hidup dalam kebenaran dan membawa keseimbangan ke dunia. Dengan rasa keadilan yang kuat, Anda melihat dengan jelas apa yang benar dan bertindak sesuai itu. Hidup Anda mengajarkan bahwa setiap sebab memiliki akibat dan bahwa integritas adalah ganjarannya sendiri.',
+      shadow: 'Dalam bayangan: sikap menghakimi, kekerasan, pikiran legalistis, atau menghindari keputusan karena takut salah.'
     },
     12: {
       title: 'The Hanged Man',
-      keywords: ['Surrender', 'New Perspective', 'Sacrifice', 'Patience'],
-      text: 'Your power comes from seeing life from a different angle. By surrendering control and pausing, you gain insights others miss. Your path involves letting go of old patterns and trusting that apparent setbacks serve a higher purpose.',
-      shadow: 'In shadow: martyrdom, victim mentality, stagnation, or refusing to act when action is needed.'
+      keywords: ['Penyerahan', 'Perspektif Baru', 'Pengorbanan', 'Kesabaran'],
+      text: 'Kekuatan Anda berasal dari melihat hidup dari sudut yang berbeda. Dengan menyerahkan kendali dan berhenti sejenak, Anda mendapatkan wawasan yang tidak dipunya orang lain. Jalan Anda melibatkan melepaskan pola lama dan percaya bahwa kemunduran yang tampak melayani tujuan yang lebih tinggi.',
+      shadow: 'Dalam bayangan: martir, mentalitas korban, stagnasi, atau menolak bertindak ketika tindakan dibutuhkan.'
     },
     13: {
       title: 'Transformation',
-      keywords: ['Rebirth', 'Endings', 'Release', 'Renewal'],
-      text: 'You are an agent of profound transformation. Old forms must die so new life can emerge. Throughout your life you will shed skins and reinvent yourself. Your gift is helping others navigate change without fear, showing that every ending is a beginning.',
-      shadow: 'In shadow: resisting change, stagnation, fear of loss, or destroying what still has value.'
+      keywords: ['Kelahiran Kembali', 'Akhir', 'Pelepasan', 'Pembaharuan'],
+      text: 'Anda adalah agen transformasi yang mendalam. Bentuk lama harus mati agar kehidupan baru dapat muncul. Sepanjang hidup Anda akan berganti kulit dan menemukan ulang diri sendiri. Karunia Anda adalah membantu orang lain menavigasi perubahan tanpa takut, menunjukkan bahwa setiap akhir adalah permulaan.',
+      shadow: 'Dalam bayangan: menolak perubahan, stagnasi, ketakutan kehilangan, atau menghancurkan apa yang masih bernilai.'
     },
     14: {
       title: 'Temperance',
-      keywords: ['Balance', 'Healing', 'Moderation', 'Alchemy'],
-      text: 'You are an alchemist who blends opposites into harmonious wholes. Patient and measured, you bring healing through balance and moderation. Your gift is finding the middle path and helping opposing forces coexist peacefully.',
-      shadow: 'In shadow: excessive compromise, people-pleasing, fear of intensity, or losing yourself in trying to please everyone.'
+      keywords: ['Keseimbangan', 'Penyembuhan', 'Kesederhanaan', 'Alkimia'],
+      text: 'Anda adalah alkimis yang mencampur lawan menjadi keseluruhan yang harmonis. Sabar dan terukur, Anda membawa penyembuhan melalui keseimbangan dan kesederhanaan. Karunia Anda adalah menemukan jalan tengah dan membantu kekuatan yang berlawanan hidup berdampingan secara damai.',
+      shadow: 'Dalam bayangan: kompromi berlebihan, mencari muka, ketakutan akan intensitas, atau kehilangan diri dalam usaha menyenangkan semua orang.'
     },
     15: {
       title: 'The Devil',
-      keywords: ['Passion', 'Shadow Work', 'Earthly Power', 'Liberation'],
-      text: 'You are confronted with the raw power of earthly desires and attachments. Your journey is about recognizing the chains you forge for yourself and breaking free through honest self-awareness. When you own your shadow, its power becomes your strength.',
-      shadow: 'In shadow: addiction, greed, manipulation, materialism, or staying in toxic situations out of fear.'
+      keywords: ['Hasrat', 'Pekerjaan Bayangan', 'Kekuatan Duniawi', 'Pembebasan'],
+      text: 'Anda dihadapkan dengan kekuatan mentah hasrat dan keterikatan duniawi. Perjalanan Anda adalah tentang mengenali rantai yang Anda tempa untuk diri sendiri dan membebaskan diri melalui kesadaran diri yang jujur. Ketika Anda memiliki bayangan Anda, kekuatannya menjadi kekuatan Anda.',
+      shadow: 'Dalam bayangan: kecanduan, keserakahan, manipulasi, materialisme, atau tetap dalam situasi beracun karena takut.'
     },
     16: {
       title: 'The Tower',
-      keywords: ['Awakening', 'Disruption', 'Truth', 'Rebuilding'],
-      text: 'Your life involves sudden breakthroughs that shatter false structures. Though disruptive, these moments clear the ground for authentic rebuilding. You are meant to live in radical truth, and anything built on illusion will be struck down.',
-      shadow: 'In shadow: chaos, resisting necessary change, rebuilding the same false structures, or living in fear of the next collapse.'
+      keywords: ['Kesadaran', 'Gangguan', 'Kebenaran', 'Membangun Ulang'],
+      text: 'Hidup Anda melibatkan terobosan mendadak yang menghancurkan struktur palsu. Meskipun mengganggu, momen-momen ini membersihkan lahan untuk pembangunan ulang yang otentik. Anda ditakdirkan untuk hidup dalam kebenaran radikal, dan apa pun yang dibangun atas ilusi akan dihancurkan.',
+      shadow: 'Dalam bayangan: kekacauan, menolak perubahan yang diperlukan, membangun ulang struktur palsu yang sama, atau hidup dalam ketakutan akan keruntuhan berikutnya.'
     },
     17: {
       title: 'The Star',
-      keywords: ['Hope', 'Inspiration', 'Healing', 'Spiritual Gifts'],
-      text: 'You are a beacon of hope and inspiration for others. After the storm, you bring healing light. Connected to cosmic energies, you radiate calm and faith. Your gift is reminding people that no matter how dark the night, the stars still shine.',
-      shadow: 'In shadow: false hope, disconnection from reality, self-doubt, or giving away your light without replenishing it.'
+      keywords: ['Harapan', 'Inspirasi', 'Penyembuhan', 'Karunia Spiritual'],
+      text: 'Anda adalah suar harapan dan inspirasi bagi orang lain. Setelah badai, Anda membawa cahaya penyembuhan. Terhubung dengan energi kosmik, Anda memancarkan ketenangan dan iman. Karunia Anda adalah mengingatkan orang bahwa tidak peduli seberapa gelap malam, bintang masih bersinar.',
+      shadow: 'Dalam bayangan: harapan palsu, keterputusan dari realitas, keraguan diri, atau memberikan cahaya Anda tanpa mengisinya kembali.'
     },
     18: {
       title: 'The Moon',
-      keywords: ['Imagination', 'Dreams', 'The Unconscious', 'Mystery'],
-      text: 'You walk between the conscious and unconscious worlds. Rich in imagination and psychic sensitivity, you perceive what others cannot. Your path involves navigating the fog of fears and illusions to find the truth hidden in the shadows.',
-      shadow: 'In shadow: anxiety, deception, emotional turbulence, being lost in fantasy, or projecting fears onto reality.'
+      keywords: ['Imajinasi', 'Mimpi', 'Alam Bawah Sadar', 'Misteri'],
+      text: 'Anda berjalan di antara dunia sadar dan bawah sadar. Kaya akan imajinasi dan sensitivitas psikis, Anda merasakan apa yang tidak dapat dirasakan orang lain. Jalan Anda melibatkan menavigasi kabut ketakutan dan ilusi untuk menemukan kebenaran yang tersembunyi di balik bayangan.',
+      shadow: 'Dalam bayangan: kecemasan, penipuan, gejolak emosional, terhilang dalam fantasi, atau memproyeksikan ketakutan ke realitas.'
     },
     19: {
       title: 'The Sun',
-      keywords: ['Joy', 'Vitality', 'Success', 'Authenticity'],
-      text: 'You radiate warmth, joy, and vitality. Your presence lights up any room, and your authentic self-expression attracts abundance and success. You are meant to shine brightly and share your inner light generously with the world.',
-      shadow: 'In shadow: ego inflation, needing constant attention, hiding sadness behind a mask of happiness, or burning out.'
+      keywords: ['Keceriaan', 'Vitalitas', 'Kesuksesan', 'Otentisitas'],
+      text: 'Anda memancarkan kehangatan, sukacita, dan vitalitas. Kehadiran Anda menerangi ruangan mana pun, dan ekspresi diri yang otentik menarik kelimpahan dan kesuksesan. Anda ditakdirkan untuk bersinar terang dan berbagi cahaya batin Anda dengan murah hati kepada dunia.',
+      shadow: 'Dalam bayangan: inflasi ego, butuh perhatian terus-menerus, menyembunyikan kesedihan di balik topeng kebahagiaan, atau kelelahan.'
     },
     20: {
       title: 'Judgement',
-      keywords: ['Renewal', 'Calling', 'Forgiveness', 'Awakening'],
-      text: 'You are called to a higher purpose, a vocation that demands you rise and answer. Your life involves moments of profound reckoning where you must forgive the past and step into a renewed version of yourself. You inspire others to awaken.',
-      shadow: 'In shadow: self-condemnation, inability to forgive, refusing to answer the call, or living in the past.'
+      keywords: ['Pembaharuan', 'Panggilan', 'Pengampunan', 'Kesadaran'],
+      text: 'Anda dipanggil ke tujuan yang lebih tinggi, sebuah panggilan yang menuntut Anda bangkit dan menjawab. Hidup Anda melibatkan momen perhitungan mendalam di mana Anda harus mengampuni masa lalu dan melangkah ke versi diri yang diperbarui. Anda menginspirasi orang lain untuk terbangun.',
+      shadow: 'Dalam bayangan: pengutukan diri, ketidakmampuan mengampuni, menolak menjawab panggilan, atau hidup di masa lalu.'
     },
     21: {
       title: 'The World',
-      keywords: ['Completion', 'Wholeness', 'Fulfillment', 'Universal Connection'],
-      text: 'You carry the energy of completion and universal connection. Your path leads toward wholeness, integrating all experiences into a unified self. You feel at home in the world and connected to all of life. Your gift is showing others that every ending is also a gateway.',
-      shadow: 'In shadow: feeling stuck at the threshold, fear of completion, perfectionism, or not knowing what to do after reaching a goal.'
+      keywords: ['Penyelesaian', 'Keseluruhan', 'Pemenuhan', 'Koneksi Universal'],
+      text: 'Anda membawa energi penyelesaian dan koneksi universal. Jalan Anda menuju keseluruhan, mengintegrasikan semua pengalaman ke dalam diri yang terpadu. Anda merasa betah di dunia dan terhubung dengan seluruh kehidupan. Karunia Anda adalah menunjukkan kepada orang lain bahwa setiap akhir juga merupakan gerbang.',
+      shadow: 'Dalam bayangan: merasa terjebak di ambang batas, ketakutan akan penyelesaian, perfeksionisme, atau tidak tahu apa yang harus dilakukan setelah mencapai tujuan.'
     },
     22: {
       title: 'The Fool',
-      keywords: ['Freedom', 'New Beginnings', 'Trust', 'Infinite Potential'],
-      text: 'You are the eternal beginner, ready to leap into the unknown with joyful trust. Unburdened by convention, you see the world with fresh eyes. Your gift is the courage to start anew, no matter how many times you have fallen. You remind others that life is an adventure.',
-      shadow: 'In shadow: irresponsibility, recklessness, naivety, refusing to commit, or repeating the same mistakes by never learning from consequences.'
+      keywords: ['Kebebasan', 'Permulaan Baru', 'Kepercayaan', 'Potensi Tak Terbatas'],
+      text: 'Anda adalah pemula abadi, siap melompat ke yang tidak diketahui dengan kepercayaan penuh sukacita. Tanpa beban konvensi, Anda melihat dunia dengan mata segar. Karunia Anda adalah keberanian untuk memulai anew, tidak peduli berapa kali Anda telah jatuh. Anda mengingatkan orang lain bahwa hidup adalah petualangan.',
+      shadow: 'Dalam bayangan: ketidakbertanggungjawaban, kecerobohan, kenaifitas, menolak berkomitmen, atau mengulang kesalahan yang sama dengan tidak pernah belajar dari konsekuensi.'
     }
   };
 
   /* ---------- Position Labels ---------- */
   const POSITION_LABELS = {
-    A: 'Personal Energy',
-    B: 'Hidden Talent',
-    C: 'Karmic Task',
-    D: 'Comfort Zone',
-    E: 'Relationships',
-    F: 'Spiritual Path',
-    G: 'Karmic Tail',
-    H: 'Material World',
-    K: 'Life Purpose',
-    L: 'Love Energy',
-    M: 'Financial Flow',
-    N: 'Family Karma'
+    A: 'Energi Personal',
+    B: 'Bakat Tersembunyi',
+    C: 'Tugas Karma',
+    D: 'Zona Nyaman',
+    E: 'Hubungan',
+    F: 'Jalan Spiritual',
+    G: 'Ekor Karma',
+    H: 'Dunia Material',
+    K: 'Tujuan Hidup',
+    L: 'Energi Cinta',
+    M: 'Aliran Keuangan',
+    N: 'Karma Keluarga'
   };
 
   /* ---------- Node Layout (SVG coordinates) ---------- */
@@ -172,14 +172,14 @@
     { id: 'F', label: 'Spirit', x: CX + R_DIAGONAL, y: CY - R_DIAGONAL, type: 'main' },
     { id: 'C', label: 'Karma', x: CX + R_CARDINAL, y: CY, type: 'main' },
     { id: 'H', label: 'Material', x: CX + R_DIAGONAL, y: CY + R_DIAGONAL, type: 'main' },
-    { id: 'D', label: 'Comfort', x: CX, y: CY + R_CARDINAL, type: 'main' },
-    { id: 'G', label: 'Karmic Tail', x: CX - R_DIAGONAL, y: CY + R_DIAGONAL, type: 'k-arm' },
-    { id: 'B', label: 'Talent', x: CX - R_CARDINAL, y: CY, type: 'main' },
-    { id: 'E', label: 'Relations', x: CX - R_DIAGONAL, y: CY - R_DIAGONAL, type: 'main' },
-    { id: 'K', label: 'Purpose', x: CX, y: CY, type: 'center' },
-    { id: 'L', label: 'Love', x: CX, y: CY - R * 0.58, type: 'inner' },
-    { id: 'M', label: 'Finance', x: CX - R * 0.58, y: CY, type: 'inner' },
-    { id: 'N', label: 'Family', x: CX, y: CY + R * 0.58, type: 'inner' }
+    { id: 'D', label: 'Nyaman', x: CX, y: CY + R_CARDINAL, type: 'main' },
+    { id: 'G', label: 'Ekor Karma', x: CX - R_DIAGONAL, y: CY + R_DIAGONAL, type: 'k-arm' },
+    { id: 'B', label: 'Bakat', x: CX - R_CARDINAL, y: CY, type: 'main' },
+    { id: 'E', label: 'Relasi', x: CX - R_DIAGONAL, y: CY - R_DIAGONAL, type: 'main' },
+    { id: 'K', label: 'Tujuan', x: CX, y: CY, type: 'center' },
+    { id: 'L', label: 'Cinta', x: CX, y: CY - R * 0.58, type: 'inner' },
+    { id: 'M', label: 'Keuangan', x: CX - R * 0.58, y: CY, type: 'inner' },
+    { id: 'N', label: 'Keluarga', x: CX, y: CY + R * 0.58, type: 'inner' }
   ];
 
   const NODE_RADIUS = { main: 30, center: 38, inner: 24, 'k-arm': 30 };
@@ -362,7 +362,7 @@
     title.setAttribute('x', CX);
     title.setAttribute('y', 28);
     title.setAttribute('class', 'matrix-title-text');
-    title.textContent = 'DESTINY MATRIX';
+    title.textContent = 'MATRIKS TAKDIR';
     svg.appendChild(title);
   }
 
@@ -427,11 +427,11 @@
           ${arcana.keywords.map(k => `<span class="keyword-tag">${k}</span>`).join('')}
         </div>
         <p class="arcana-text">${arcana.text}</p>
-        <div class="arcana-shadow"><strong>Shadow:</strong> ${arcana.shadow}</div>
+        <div class="arcana-shadow"><strong>Bayangan:</strong> ${arcana.shadow}</div>
       `;
 
       if (isKarmic) {
-        html += `<div class="arcana-shadow"><strong>Karmic Energy:</strong> This arcana appears ${counts[value]} times in your matrix — it demands special attention and conscious work.</div>`;
+        html += `<div class="arcana-shadow"><strong>Energi Karma:</strong> Arcana ini muncul ${counts[value]} kali dalam matriks Anda — ini menuntut perhatian khusus dan kerja sadar.</div>`;
       }
 
       item.innerHTML = html;
@@ -511,14 +511,14 @@
       h.name === item.name && h.day === item.day && h.month === item.month && h.year === item.year
     );
     if (exists) {
-      showToast('This profile is already saved.', 'error');
+      showToast('Profil ini sudah tersimpan.', 'error');
       return;
     }
     history.unshift(item);
     if (history.length > 50) history.pop();
     localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
     renderHistory();
-    showToast('Profile saved.', 'success');
+    showToast('Profil disimpan.', 'success');
   }
 
   function deleteHistory(id) {
@@ -526,7 +526,7 @@
     history = history.filter(h => h.id !== id);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(history));
     renderHistory();
-    showToast('Profile removed.');
+    showToast('Profil dihapus.');
   }
 
   function updateHistoryName(id, newName) {
@@ -542,7 +542,7 @@
   function clearAllHistory() {
     localStorage.removeItem(STORAGE_KEY);
     renderHistory();
-    showToast('All profiles cleared.');
+    showToast('Semua profil dihapus.');
   }
 
   function renderHistory() {
@@ -561,13 +561,13 @@
 
     clearAllBtn.hidden = false;
 
-    const monthNames = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const monthNames = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
 
     history.forEach(item => {
       const div = document.createElement('div');
       div.className = 'history-item';
 
-      const displayName = item.name || 'Anonymous';
+      const displayName = item.name || 'Tanpa Nama';
       const dateStr = `${monthNames[item.month]} ${item.day}, ${item.year}`;
 
       div.innerHTML = `
@@ -579,12 +579,12 @@
           </div>
         </div>
         <div class="history-item-actions">
-          <button class="icon-btn edit" data-id="${item.id}" aria-label="Rename profile">
+          <button class="icon-btn edit" data-id="${item.id}" aria-label="Ganti nama profil">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </button>
-          <button class="icon-btn delete" data-id="${item.id}" aria-label="Delete profile">
+          <button class="icon-btn delete" data-id="${item.id}" aria-label="Hapus profil">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6M10 11v6M14 11v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -609,7 +609,7 @@
         const id = btn.getAttribute('data-id');
         const item = getHistory().find(h => h.id === id);
         if (item) {
-          const newName = prompt('Enter a new name for this profile:', item.name || '');
+          const newName = prompt('Masukkan nama baru untuk profil ini:', item.name || '');
           if (newName !== null) {
             updateHistoryName(id, newName.trim());
           }
@@ -621,7 +621,7 @@
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         const id = btn.getAttribute('data-id');
-        if (confirm('Remove this saved profile?')) {
+        if (confirm('Hapus profil tersimpan ini?')) {
           deleteHistory(id);
         }
       });
@@ -649,29 +649,29 @@
   }
 
   function formatDate(day, month, year) {
-    const monthNames = ['', 'January', 'February', 'March', 'April', 'May', 'June',
-      'July', 'August', 'September', 'October', 'November', 'December'];
-    return `${monthNames[month]} ${day}, ${year}`;
+    const monthNames = ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+      'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    return `${day} ${monthNames[month]} ${year}`;
   }
 
   function isValidDate(day, month, year) {
-    if (!day || !month || !year) return 'Please fill in all date fields.';
-    if (year < 1900 || year > 2100) return 'Year must be between 1900 and 2100.';
-    if (month < 1 || month > 12) return 'Please select a valid month.';
+    if (!day || !month || !year) return 'Mohon isi semua kolom tanggal.';
+    if (year < 1900 || year > 2100) return 'Tahun harus antara 1900 dan 2100.';
+    if (month < 1 || month > 12) return 'Mohon pilih bulan yang valid.';
     const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     // Leap year check
     const isLeap = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
     if (month === 2 && isLeap) {
-      if (day < 1 || day > 29) return 'February has at most 29 days in a leap year.';
+      if (day < 1 || day > 29) return 'Februari paling banyak 29 hari di tahun kabisat.';
     } else {
-      if (day < 1 || day > daysInMonth[month - 1]) return `That day is not valid for ${monthNames_long(month)}.`;
+      if (day < 1 || day > daysInMonth[month - 1]) return `Tanggal tersebut tidak valid untuk ${monthNames_long(month)}.`;
     }
     return null;
   }
 
   function monthNames_long(m) {
-    return ['', 'January', 'February', 'March', 'April', 'May', 'June',
-      'July', 'August', 'September', 'October', 'November', 'December'][m];
+    return ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+      'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'][m];
   }
 
   /* ---------- Show Results ---------- */
@@ -680,7 +680,7 @@
     section.hidden = false;
 
     const name = currentInput.name ? currentInput.name.trim() : '';
-    document.getElementById('profileName').textContent = name || 'Your Matrix';
+    document.getElementById('profileName').textContent = name || 'Matriks Anda';
     document.getElementById('profileDate').textContent = formatDate(currentInput.day, currentInput.month, currentInput.year);
 
     renderMatrix(currentMatrix);
@@ -722,7 +722,7 @@
     // Save button
     document.getElementById('saveBtn').addEventListener('click', () => {
       if (!currentMatrix || !currentInput) {
-        showToast('Calculate a matrix first.', 'error');
+        showToast('Hitung matriks terlebih dahulu.', 'error');
         return;
       }
       const item = {
@@ -738,7 +738,7 @@
 
     // Clear all
     document.getElementById('clearAllBtn').addEventListener('click', () => {
-      if (confirm('Remove all saved profiles? This cannot be undone.')) {
+      if (confirm('Hapus semua profil tersimpan? Tindakan ini tidak dapat dibatalkan.')) {
         clearAllHistory();
       }
     });

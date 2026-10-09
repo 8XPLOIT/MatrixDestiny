@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="id" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Destiny Matrix Calculator — Unlock the secrets of your Matrix of Destiny, an in-depth guide to numerology based on the 22 Major Arcana.">
+  <meta name="description" content="Kalkulator Destiny Matrix — Ungkap rahasia Matriks Takdir Anda, panduan mendalam numerologi berdasarkan 22 Arcana Mayor.">
   <title>MatrixDestiny — Unlock Your Destiny Matrix</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@
           <span>Unlock Your Matrix of Destiny</span>
         </div>
       </div>
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme">
+      <button class="theme-toggle" id="themeToggle" aria-label="Beralih tema terang atau gelap">
         <svg class="icon-moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -46,52 +46,52 @@
     <section class="hero">
       <div class="hero-content">
         <h2 class="hero-title">Discover Your <em>Destiny Matrix</em></h2>
-        <p class="hero-subtitle">Enter your birth date to reveal the 22 Arcana energies that shape your life path, relationships, talents, and karmic lessons.</p>
+        <p class="hero-subtitle">Masukkan tanggal lahir Anda untuk mengungkap 22 energi Arcana yang membentuk jalur hidup, hubungan, bakat, dan pelajaran karma Anda.</p>
       </div>
     </section>
 
     <!-- Input Form -->
     <section class="input-section" id="inputSection">
       <div class="card form-card">
-        <h3 class="card-title">Birth Information</h3>
+        <h3 class="card-title">Informasi Kelahiran</h3>
         <form id="birthForm" class="birth-form">
           <div class="form-row">
             <div class="form-group">
-              <label for="nameInput">Name <span class="optional">(optional)</span></label>
-              <input type="text" id="nameInput" placeholder="e.g. John Doe" maxlength="60" autocomplete="off">
+              <label for="nameInput">Nama <span class="optional">(opsional)</span></label>
+              <input type="text" id="nameInput" placeholder="cth. Budi Santoso" maxlength="60" autocomplete="off">
             </div>
           </div>
           <div class="form-row date-row">
             <div class="form-group">
-              <label for="dayInput">Day</label>
+              <label for="dayInput">Hari</label>
               <input type="number" id="dayInput" placeholder="DD" min="1" max="31" required inputmode="numeric">
             </div>
             <div class="form-group">
-              <label for="monthInput">Month</label>
+              <label for="monthInput">Bulan</label>
               <select id="monthInput" required>
-                <option value="" disabled selected>Month</option>
-                <option value="1">January</option>
-                <option value="2">February</option>
-                <option value="3">March</option>
+                <option value="" disabled selected>Bulan</option>
+                <option value="1">Januari</option>
+                <option value="2">Februari</option>
+                <option value="3">Maret</option>
                 <option value="4">April</option>
-                <option value="5">May</option>
-                <option value="6">June</option>
-                <option value="7">July</option>
-                <option value="8">August</option>
+                <option value="5">Mei</option>
+                <option value="6">Juni</option>
+                <option value="7">Juli</option>
+                <option value="8">Agustus</option>
                 <option value="9">September</option>
-                <option value="10">October</option>
+                <option value="10">Oktober</option>
                 <option value="11">November</option>
-                <option value="12">December</option>
+                <option value="12">Desember</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="yearInput">Year</label>
+              <label for="yearInput">Tahun</label>
               <input type="number" id="yearInput" placeholder="YYYY" min="1900" max="2100" required inputmode="numeric">
             </div>
           </div>
           <div id="formError" class="form-error" role="alert"></div>
           <button type="submit" class="btn btn-primary btn-large" id="calculateBtn">
-            <span class="btn-text">Reveal My Matrix</span>
+            <span class="btn-text">Ungkap Matriks Saya</span>
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon">
               <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -105,14 +105,14 @@
       <!-- Profile Header -->
       <div class="card profile-card" id="profileCard">
         <div class="profile-info">
-          <h3 id="profileName">Your Matrix</h3>
+          <h3 id="profileName">Matriks Anda</h3>
           <p id="profileDate"></p>
         </div>
         <button class="btn btn-secondary btn-sm" id="saveBtn">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon-sm">
             <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <span>Save Profile</span>
+          <span>Simpan Profil</span>
         </button>
       </div>
 
@@ -120,16 +120,16 @@
       <div class="card matrix-card">
         <h3 class="card-title">Destiny Matrix Octagram</h3>
         <div class="matrix-wrapper" id="matrixWrapper">
-          <svg id="matrixSvg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-label="Destiny Matrix Octagram"></svg>
+          <svg id="matrixSvg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-label="Oktagram Destiny Matrix"></svg>
         </div>
         <div class="matrix-legend">
-          <p>Tap any number on the matrix to read its interpretation below.</p>
+          <p>Ketuk angka mana pun pada matriks untuk membaca interpretasinya di bawah.</p>
         </div>
       </div>
 
       <!-- Interpretations -->
       <div class="card interpretation-card" id="interpretationCard">
-        <h3 class="card-title">Interpretations</h3>
+        <h3 class="card-title">Interpretasi</h3>
         <div id="interpretationList" class="interpretation-list"></div>
       </div>
     </section>
@@ -138,12 +138,12 @@
     <section class="history-section" id="historySection">
       <div class="card history-card">
         <div class="history-header">
-          <h3 class="card-title">Saved Profiles</h3>
+          <h3 class="card-title">Profil Tersimpan</h3>
           <button class="btn btn-ghost btn-sm" id="clearAllBtn" hidden>
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon-sm">
               <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <span>Clear All</span>
+            <span>Hapus Semua</span>
           </button>
         </div>
         <div id="historyList" class="history-list">
@@ -151,7 +151,7 @@
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="empty-icon">
               <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <p>No saved profiles yet. Calculate a matrix and save it to see it here.</p>
+            <p>Belum ada profil tersimpan. Hitung matriks dan simpan untuk melihatnya di sini.</p>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>MatrixDestiny &mdash; Based on the 22 Major Arcana of the Tarot. For reflection and entertainment.</p>
+    <p>MatrixDestiny &mdash; Berdasarkan 22 Arcana Mayor Tarot. Untuk refleksi dan hiburan.</p>
   </footer>
 
   <!-- Toast -->
