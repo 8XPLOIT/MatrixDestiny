@@ -1,0 +1,7 @@
+{
+  "project": "MatrixDestiny",
+  "version": "1.0.0",
+  "description": "Destiny Matrix numerology calculator based on 22 Major Arcana",
+  "environment": "client-side",
+  "features": ["octagram-matrix", "22-arcana", "history", "light-dark-mode"]
+}

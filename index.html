@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Destiny Matrix Calculator — Unlock the secrets of your Matrix of Destiny, an in-depth guide to numerology based on the 22 Major Arcana.">
+  <title>MatrixDestiny — Unlock Your Destiny Matrix</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+  <div class="starfield" id="starfield"></div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L13.5 8.5L20 10L13.5 11.5L12 18L10.5 11.5L4 10L10.5 8.5L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M12 6L12.75 9.25L16 10L12.75 10.75L12 14L11.25 10.75L8 10L11.25 9.25L12 6Z" fill="currentColor" opacity="0.3"/>
+        </svg>
+        <div class="logo-text">
+          <h1>MatrixDestiny</h1>
+          <span>Unlock Your Matrix of Destiny</span>
+        </div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">Discover Your <em>Destiny Matrix</em></h2>
+        <p class="hero-subtitle">Enter your birth date to reveal the 22 Arcana energies that shape your life path, relationships, talents, and karmic lessons.</p>
+      </div>
+    </section>
+
+    <!-- Input Form -->
+    <section class="input-section" id="inputSection">
+      <div class="card form-card">
+        <h3 class="card-title">Birth Information</h3>
+        <form id="birthForm" class="birth-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nameInput">Name <span class="optional">(optional)</span></label>
+              <input type="text" id="nameInput" placeholder="e.g. John Doe" maxlength="60" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-row date-row">
+            <div class="form-group">
+              <label for="dayInput">Day</label>
+              <input type="number" id="dayInput" placeholder="DD" min="1" max="31" required inputmode="numeric">
+            </div>
+            <div class="form-group">
+              <label for="monthInput">Month</label>
+              <select id="monthInput" required>
+                <option value="" disabled selected>Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="yearInput">Year</label>
+              <input type="number" id="yearInput" placeholder="YYYY" min="1900" max="2100" required inputmode="numeric">
+            </div>
+          </div>
+          <div id="formError" class="form-error" role="alert"></div>
+          <button type="submit" class="btn btn-primary btn-large" id="calculateBtn">
+            <span class="btn-text">Reveal My Matrix</span>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon">
+              <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="results-section" id="resultsSection" hidden>
+      <!-- Profile Header -->
+      <div class="card profile-card" id="profileCard">
+        <div class="profile-info">
+          <h3 id="profileName">Your Matrix</h3>
+          <p id="profileDate"></p>
+        </div>
+        <button class="btn btn-secondary btn-sm" id="saveBtn">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon-sm">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Save Profile</span>
+        </button>
+      </div>
+
+      <!-- Matrix Visualization -->
+      <div class="card matrix-card">
+        <h3 class="card-title">Destiny Matrix Octagram</h3>
+        <div class="matrix-wrapper" id="matrixWrapper">
+          <svg id="matrixSvg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-label="Destiny Matrix Octagram"></svg>
+        </div>
+        <div class="matrix-legend">
+          <p>Tap any number on the matrix to read its interpretation below.</p>
+        </div>
+      </div>
+
+      <!-- Interpretations -->
+      <div class="card interpretation-card" id="interpretationCard">
+        <h3 class="card-title">Interpretations</h3>
+        <div id="interpretationList" class="interpretation-list"></div>
+      </div>
+    </section>
+
+    <!-- History -->
+    <section class="history-section" id="historySection">
+      <div class="card history-card">
+        <div class="history-header">
+          <h3 class="card-title">Saved Profiles</h3>
+          <button class="btn btn-ghost btn-sm" id="clearAllBtn" hidden>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="btn-icon-sm">
+              <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Clear All</span>
+          </button>
+        </div>
+        <div id="historyList" class="history-list">
+          <div class="history-empty" id="historyEmpty">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="empty-icon">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>No saved profiles yet. Calculate a matrix and save it to see it here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>MatrixDestiny &mdash; Based on the 22 Major Arcana of the Tarot. For reflection and entertainment.</p>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
